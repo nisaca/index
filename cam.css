@@ -1,0 +1,91 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+.banner {
+    background-image: url(imagenes/banner-cam.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 250px 0px;
+    
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.banner p{
+    font-size: 40px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+a {
+    
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+}
+
+.button{
+    background-color:#0591E6;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.cards {
+    background-color: white;
+    box-shadow: 0 0 16px rgba(0,0,0, 0.1); /*Es el que me deja ver
+                                             el cuadro con los dordes opacos*/ 
+    border-radius: 8px;
+    width: 200px;  /*Dice el grosor del cuadro (que tan ancho se quiere)*/
+    text-align: center;
+    padding: 24px;
+}
+
+.cards img {
+        width: 100%; /* Esto hace que la imagen cuadre en el cuadro que hemos
+                     diseñado sin importar el tamaño misno de la imagen */
+        border-radius: 4px;
+        object-fit: cover; /*Si alguna foto esta distorcionada, muy achicada o 
+                           se ancho mucho, esta la hace cuadrar para que no se 
+                           vea descuadrada*/                 
+}    
+
+.cards h3 {
+    margin-bottom: 0;
+}
+
+.box {
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    margin-left: 200px;
+}
+
+h2 {
+    margin-left: 240px;
+}
+
+.footer {
+    background-color: #775D4D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.cuadros {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*Me dice la cuadricula cuantas
+                                           filas va a tener de forma horizontal*/
+    grid-gap: 16px; /*el espacio de una cuadricula a otra*/
+    
+}
+
+
